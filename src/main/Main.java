@@ -5,6 +5,7 @@
  */
 package main;
 
+import facade.FacadeMain;
 import simple_factory.simple_Factory_Main;
 
 /**
@@ -20,6 +21,7 @@ public class Main {
         //SingletonMain.main(args);
         //simple_Factory_Main.main(args);
         //BuilderMain.main(args);
+        FacadeMain.main(args);
         
         
     }

@@ -15,7 +15,18 @@ public class FacadeMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        StereoketenFacade.StereoketenFacadeBuilder builder = new StereoketenFacade.StereoketenFacadeBuilder();
+        StereoketenFacade stereoketen = builder
+                .metCDPlayer(new CDPlayer())
+                .metRadio(new Radio())
+                .metEqualizer(new Equalizer())
+                .metVersterker(new Versterker())
+                .maakStereoketenFacade();
+        stereoketen.start();
+        stereoketen.getCdPlayer().start();
+        stereoketen.stop();
+        stereoketen.start();
+                       
     }
     
 }
