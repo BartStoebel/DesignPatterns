@@ -3,25 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
-
-import simple_factory.simple_Factory_Main;
+package facade;
 
 /**
  *
  * @author Bart.Stoebel
  */
-public class Main {
+public class FacadeMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //SingletonMain.main(args);
-        //simple_Factory_Main.main(args);
-        //BuilderMain.main(args);
-        
-        
+        // TODO code application logic here
     }
     
 }
