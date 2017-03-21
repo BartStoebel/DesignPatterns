@@ -5,6 +5,9 @@
  */
 package main;
 
+import adapter.AdapterMain;
+import composite.CompositeMain;
+import decorator.DecoratorMain;
 import facade.FacadeMain;
 import simple_factory.simple_Factory_Main;
 
@@ -21,8 +24,10 @@ public class Main {
         //SingletonMain.main(args);
         //simple_Factory_Main.main(args);
         //BuilderMain.main(args);
-        FacadeMain.main(args);
-        
+        //FacadeMain.main(args);
+        //AdapterMain.main(args);
+        //CompositeMain.main(args);
+        DecoratorMain.main(args);
         
     }
     
