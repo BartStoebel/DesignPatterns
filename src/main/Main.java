@@ -9,6 +9,7 @@ import adapter.AdapterMain;
 import composite.CompositeMain;
 import decorator.DecoratorMain;
 import facade.FacadeMain;
+import observer.ObserverMain;
 import simple_factory.simple_Factory_Main;
 
 /**
@@ -27,7 +28,9 @@ public class Main {
         //FacadeMain.main(args);
         //AdapterMain.main(args);
         //CompositeMain.main(args);
-        DecoratorMain.main(args);
+        //DecoratorMain.main(args);
+        //ObserverMain.main(args);
+        strategy.strategyMain.main(args);
         
     }
     
